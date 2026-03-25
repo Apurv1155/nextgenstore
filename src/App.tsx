@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, Link, useLocation, useParams, useNavigate } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link, useLocation, useParams, useNavigate } from "react-router-dom";
 import { Search, Plus, Home as HomeIcon, LayoutGrid, Download, Star, ArrowLeft, X, Info, ShieldCheck, MessageSquare, ChevronRight, Share2, MoreVertical, Heart, CheckCircle2, Edit, Trash2, Send } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { Toaster, toast } from "sonner";
